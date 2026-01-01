@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram id="w3E8utGeP9N_PwTyc5Ed" name="Page-1">
+    <mxGraphModel dx="815" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-1" value="&lt;span data-teams=&quot;true&quot;&gt;&lt;h2&gt;Design a Travel &amp;amp; Stay Booking Website&lt;/h2&gt;&lt;p&gt;Imagine you&#39;re building the front end for a new website like Airbnb. Users should be able to easily find and view places to stay in various locations.&lt;/p&gt;&lt;p&gt;You’ll have traffic from around the world, people using different devices &amp;amp; internet speed.&lt;/p&gt;&lt;p&gt;Describe your approach to building this front end, focusing on your key decisions to achieve a great user experience and a robust platform.&lt;/p&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="120" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-2" value="Requirements&lt;div&gt;1. user should see all listing, search, book, ----&amp;gt; Listing page&amp;nbsp;&lt;/div&gt;&lt;div&gt;2. Search Page (search list + map view)&lt;/div&gt;&lt;div&gt;3. Search feature (any page) (Searching, filters)&lt;/div&gt;&lt;div&gt;4. Property Page (images, videos, reviews, what features)&lt;/div&gt;&lt;div&gt;5. Booking property Transactional (Lead, book, payment)&lt;br&gt;&lt;br&gt;no-functional&lt;br&gt;Responsiveness&lt;/div&gt;&lt;div&gt;SEO&lt;/div&gt;&lt;div&gt;load fast on user end&lt;/div&gt;&lt;div&gt;debounce&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="270" width="350" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-3" value="Highlevel design" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-4" value="React framework, Next.JS (webpack)&lt;br&gt;REST, GRARPHQL&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="255" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-5" value="SPA --&amp;nbsp; data frequently changing, other packges SEO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="308" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-7" target="sCDaz5_hbO_TYx4L1GyZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-7" value="Global state&lt;div&gt;(Redux)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="720" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-9" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-12" target="sCDaz5_hbO_TYx4L1GyZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-12" target="sCDaz5_hbO_TYx4L1GyZ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-12" value="CONTROLLER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="725" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-13" value="WEb APP&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="590" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-14" value="CACHING" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1115" y="780" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-16" target="sCDaz5_hbO_TYx4L1GyZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-16" value="listing &amp;lt;Array&amp;gt; (property)&lt;br&gt;&lt;br&gt;property {&lt;br&gt;id : number&lt;div&gt;name: string&lt;br&gt;images: media[]&lt;br&gt;location: Object&lt;br&gt;price: {number, currecny}&lt;br&gt;feature Tags: array[]&lt;br&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="810" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-17" value="LIsting : []&lt;div&gt;canonical - new api&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="833" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-18" value="Redux&amp;nbsp;&lt;br&gt;Global store&lt;br&gt;Actions&lt;br&gt;reducers&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="918" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-19" value="Context API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="925" y="890" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-20" value="Search&amp;nbsp;&lt;br&gt;&lt;br&gt;3 words limit api call&lt;div&gt;Debounce&lt;br&gt;Limit response&lt;br&gt;limit search results&lt;/div&gt;&lt;div&gt;inffinte scroll&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="948" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sCDaz5_hbO_TYx4L1GyZ-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-23" value="Optimizations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-24" value="Code optimization&lt;br&gt;react hooks memo, useCallback&lt;div&gt;React profiler, which rerenders&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-25" value="Network and js opimzaions&lt;div&gt;code (bundle) (minify, uglify)&lt;br&gt;compression js, css (jzip, brotil)&lt;br&gt;cdn cache&lt;/div&gt;&lt;div&gt;images / medias&lt;br&gt;videos&lt;br&gt;webp, png&lt;br&gt;&lt;br&gt;Image service (image optmimiaed) CDN&lt;br&gt;&lt;br&gt;srcSet image&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-26" value="Security&lt;div&gt;cors policy&lt;br&gt;XSS&lt;/div&gt;&lt;div&gt;api data&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;dange ()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="520" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-27" value="Authentication&lt;div&gt;JWT token - stateless (3 parts) algo, payload, signature&lt;/div&gt;&lt;div&gt;private and public key&lt;br&gt;Session token - statefull&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="838" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sCDaz5_hbO_TYx4L1GyZ-28" value="cookies (secure, httpsOnly) (expiry)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="948" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
